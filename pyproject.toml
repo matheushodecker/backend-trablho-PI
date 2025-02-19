@@ -1,0 +1,15 @@
+[project]
+name = "trabalho_pi_hodecker"
+version = "0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Hodecker", email = "matheus.hodecker.santos@gmail.com"},
+]
+dependencies = ["django>=4.2.19", "djangorestframework>=3.15.2"]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
